@@ -19,15 +19,15 @@ The application is implemented using **Streamlit**, providing an intuitive and i
 
 ## 🚀 Features
 
-*1. Upload brain MRI images (`.jpg`, `.jpeg`, `.png`)
-*2. Detect presence of a brain tumor
-*3. Classify tumors into:
-  *a. Glioma
-  *b. Meningioma
-  *c. Pituitary Tumor
-  *d. No Tumor
-*4. Display confidence score and class-wise probabilities
-*5. Simple and user-friendly UI built with Streamlit
+* 1. Upload brain MRI images (`.jpg`, `.jpeg`, `.png`)
+* 2. Detect presence of a brain tumor
+* 3. Classify tumors into:
+  * a. Glioma
+  * b. Meningioma
+  * c. Pituitary Tumor
+  * d. No Tumor
+* 4. Display confidence score and class-wise probabilities
+* 5. Simple and user-friendly UI built with Streamlit
 
 ---
 
