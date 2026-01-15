@@ -1,8 +1,19 @@
-# AlphaDetect 🧠🔍
+# 🧠 AlphaDetect 
 
-**AlphaDetect** is a deep learning–powered web application for **brain tumor detection and classification** using **MRI images**. The app leverages a **VGG16-based CNN model** and provides real-time predictions through an interactive **Streamlit** interface.
+**AlphaDetect** is an end-to-end, deep learning–powered web application designed for **automatic brain tumor detection and classification** using **Magnetic Resonance Imaging (MRI)** scans. The application aims to assist in the early analysis of brain MRI images by leveraging the power of **convolutional neural networks (CNNs)** and **transfer learning**.
 
-> ⚠️ **Disclaimer:** This application is intended for **educational and research purposes only**. It is **not a medical diagnostic tool** and should not be used as a substitute for professional medical advice.
+The core of AlphaDetect is built on a **VGG16 architecture**, a well-established deep learning model known for its strong feature extraction capabilities. By fine-tuning VGG16 on a labeled brain MRI dataset, the model learns to identify complex spatial patterns and visual cues associated with different types of brain tumors.
+
+AlphaDetect can classify an MRI image into one of four categories:
+
+* **Glioma** – aggressive tumors originating from glial cells
+* **Meningioma** – tumors arising from the meninges
+* **Pituitary Tumor** – tumors affecting the pituitary gland
+* **No Tumor** – healthy brain MRI scans
+
+The application is implemented using **Streamlit**, providing an intuitive and interactive user interface that allows users to upload MRI images and instantly receive predictions. Along with the predicted class, the app displays a **confidence score** and **class-wise probability distribution**, enabling users to better understand the model’s decision-making process.
+
+> ⚠️ **Disclaimer:** AlphaDetect is intended for **educational, academic, and research purposes**, demonstrating the real-world application of deep learning in medical image analysis. It is **not a clinical diagnostic tool** and should not be used as a replacement for professional medical evaluation or diagnosis. It is **not a medical diagnostic tool** and should not be used as a substitute for professional medical advice.
 
 ---
 
@@ -180,3 +191,10 @@ B.Tech – Artificial Intelligence & Data Science
 
 
 ⭐ *If you like this project, don’t forget to star the repository!*
+
+
+
+
+
+
+
