@@ -189,9 +189,9 @@ These results validate the effectiveness of **VGG16 transfer learning** for brai
 **Arrol Dsouza**
 B.Tech – Artificial Intelligence & Data Science
 
-* GitHub: [https://github.com/your-username](https://github.com/your-username)
+<!--* GitHub: [https://github.com/your-username](https://github.com/your-username)
 * LinkedIn: [https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-
+-->
 ---
 
 
