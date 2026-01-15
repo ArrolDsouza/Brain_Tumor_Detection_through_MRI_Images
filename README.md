@@ -17,7 +17,7 @@ The application is implemented using **Streamlit**, providing an intuitive and i
 
 ---
 
-## 🚀 Features
+## ✅ Features
 
 * 1. Upload brain MRI images (`.jpg`, `.jpeg`, `.png`)
 * 2. Detect presence of a brain tumor
@@ -56,9 +56,14 @@ The VGG16 model is fine-tuned on a labeled brain MRI dataset to extract deep spa
 
 ```
 AlphaDetect/
-│
+|
+├── Brain_Tumor_Dataset/                     # Dataset of Brain MRI Image
+    │
+    ├── Train
+    ├── Test        
 ├── app.py                         # Streamlit application
 ├── model.h5                       # Trained VGG16 model
+├── Training.py                       # Training VGG16 Model on Dataset
 ├── Brain_Tumor_Detector_Image.jpeg# App banner image
 ├── requirements.txt               # Python dependencies
 └── README.md                      # Project documentation
